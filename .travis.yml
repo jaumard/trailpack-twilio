@@ -1,0 +1,24 @@
+language: node_js
+os:
+- linux
+- osx
+node_js:
+- 4
+- 5
+- 6
+notifications:
+  email: false
+  webhooks:
+    urls:
+    - https://webhooks.gitter.im/e/54f8a1e753f859f5ca1a
+    on_start: never
+    on_failure: change
+deploy:
+  provider: npm
+  email: jimmy.aumard@gmail.com
+  api_key:
+    secure: fPtURc0GKMWo/XSHLncLT/KhxMY/cIps/jGdgJARAfF6RZ++LMdd/vOZ3fubl1J7JG3M8UrEGQS2NINTRbKZZgMJmgQjCCGpD+Gsp6B843FTSA4HsW4mR8PioMEwx1RkoPT6tqcCPdsZyglq1JNYKH0lbrk6zZVWNGY5Q/qjbGlf37/QnVkBNyVMBXGnJNKdSiuoaf/qlLB6Ur2lfeS3QudRSwFHviPFiEZ59Wv7znn8HZvRA3KluH3LrrKmAGItcYqWc2QkkhQorsb4Z9/lnimiLCXNEbNoxBwaBmsRWGjArOOJ/D42yhwtXL3aULSmO4XXufyThaL3TQqLlnywRUWB6RL0XgnFIGXpBjbT54WdRvrsKNIRDaAPEZhmYlntYBEJ+qdma4XSRD5nLkVq4mI7wIWJrv57287i86Me8GPQZ7JLec3PxfEanRYPQuhJ0H/d4piq+4PUrKUfJFpL5IG5A9NshmDKYhVqLhsGjt8Zl5HfC65qFo43m8xkU9o6PJ1D4w7DFeJ22eyEGJCaZSsnQ5yX/XgYTXjhj3M+p6XPBEk8qsz9j4InoeJXCRzvencwSGMCE8RChQx2CMK4f6gdAunZOxAP8jb4Jus1JbQTDPnLKGjw71p2xbb3+bhpF4A4FRs7aX+CjOSlKmTWc05+w8HVqBT2mI7DGsuYE7c=
+  on:
+    tags: true
+    repo: jaumard/trailpack-twilio
+    node: 6

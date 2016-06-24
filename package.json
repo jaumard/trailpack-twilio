@@ -1,0 +1,45 @@
+{
+  "name": "trailpack-twilio",
+  "version": "1.0.0",
+  "description": "Twilio Trailpack for sending SMS",
+  "homepage": "https://github.com/jaumard/trailpack-twilio",
+  "author": {
+    "name": "jaumard",
+    "email": "jimmy.aumard@gmail.com",
+    "url": "https://github.com/jaumard"
+  },
+  "main": "index.js",
+  "keywords": [
+    "trailpack",
+    "trails",
+    "trailsjs",
+    "twilio",
+    "sms"
+  ],
+  "dependencies": {
+    "joi": "^8.4.2",
+    "lodash": "^4.13.1",
+    "trailpack": "^1.0.4",
+    "trails-service": "^1.0.0-beta-2",
+    "twilio": "^2.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-trails": "^1.0.7",
+    "mocha": "^2.5.3",
+    "smokesignals": "^1.2.2",
+    "trailpack-core": "^1.0.0",
+    "trails": "^1.0.4"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "https://github.com/jaumard/trailpack-twilio",
+  "license": "MIT"
+}
