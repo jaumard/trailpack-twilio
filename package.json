@@ -1,6 +1,6 @@
 {
   "name": "trailpack-twilio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Twilio Trailpack for sending SMS",
   "homepage": "https://github.com/jaumard/trailpack-twilio",
   "author": {
