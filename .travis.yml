@@ -1,7 +1,6 @@
 language: node_js
 os:
 - linux
-- osx
 node_js:
 - 4
 - 5
@@ -17,7 +16,7 @@ deploy:
   provider: npm
   email: jimmy.aumard@gmail.com
   api_key:
-    secure: kvq1cpuZis4sU/QDD/y3fhDoeNRGJEtZS1xneet/nP2xfT4zHDhpQqO9u2EfHTLYkA0GzTWcRSlZYptZzhFzm1qqYBuyccoahDtXsGdMu1tRGJDS+esJ01NPu3djZwroqlNkjc0Khmaf1ERX8evSdJ3WiLsJmk65d4EgsJa9RwC8iplSrqmLJoH0oNDJFdn33cjPHW+gzNO5EU84i0SAatePTFJrGOyk/sVSzL2FuL3Fc57XFMPYN7wut6c8gLDD0UdQdkhxtW6WMnKMUi+ePBm7sBV1c9rWN9ULUjVThnUjAFQFjY5FJcPYe7vat8GAS1kolecmf/K6Z4D1naQiNmUPpW3KyuG3viiuZ04cM4tQ5Cp/2RE+TMJXVRx1eMIJ+zF/9HxlWw+tSsBX9/MVWpfBKzBZWDV2WHuLjh6ccWQ1jRq0q9fKpLRvj9fxMpnXgtEN16P9+FjezxAX8k1TagPTnEm4JEN7R2BpF3oE8ewXVdieoK+KSrix7R7oKojgm9OkFHeT+Z3mtZcUZfKBc3JfU56FmURoo24vOMNviVsX7Q0afHhHmDQnl0h8gJMposEAWLouO3fw/zYnJm5plymGsKfXoDjYS7Idj5w+KGwYCVJTrYzKy75fG0It/KKMUx/AcoAGxUEgsVCeYhWmpznVhC67vEuicBcHv+nrzXA=
+    secure: P0jo3U9wB7y0k9P+RT23ba6gaZ7vWNMaNwj+fSb1/K8pj+pGVz0/rhMmwLAGj1Icn9TdfcGdcubfuqCFeTALr/V2m2oRzJTD0tZGPolZj99G+ck5yYpk2bYsdX0O1tq21RPtU7JI0vW78CT1ck8rK0Lxgh+CpAjkoLmbqfDSYR8gCLrtk/iTrF4ybbKpF3jaWO+hEAmsRbyd7iEUHtayg+Gw3/DwsHdrjgVZWEEQEHRUEmfn3rkoJHAOHLItoxlxFlmtZYh1pjyFkxN/IBi2pJb0YTPCSZdzMvD/y9+QzfgPeM1jfLnQRIu6ylLu+VKw7DgEFKVAD1tf2jvS7WnATs9PiXk8Ic+dMuJH3LA4kXGJ1iY8JO3F71M0WVcylSV4WwOQJqg+35L6o9D9BBF/i41XMoJMMoNbLdi+lHevQFrMEGi/OOwrMNez3c6FjZQ5QUWvPJbbiuGPjfkJrAsLaZxQzci1AbFqqJ9vn5VsIH29Eg/zQnTag9AkuhIR223AMLSaZtbFN2F0RnYqN0Pp+qIVso9BNClu18sQKrW4wwcEdzrYAgDwzQly02YrAd4GlshwfFmFsifKEbQVAyG1gqf9hiFVXh4ZZpO2oCdTu3Uj6a1/2T+foaw4sRU/hGfarkso/Btuf7SHVJCovM0jupP2J3eTBa9Rp/Hx/nYufN4=
   on:
     tags: true
     repo: jaumard/trailpack-twilio
