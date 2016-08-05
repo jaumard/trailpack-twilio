@@ -4,6 +4,8 @@
 [![Build status][ci-image]][ci-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
+[![Beerpay](https://beerpay.io/jaumard/trailpack-twilio/badge.svg?style=flat)](https://beerpay.io/jaumard/trailpack-twilio)
+[![Beerpay](https://beerpay.io/jaumard/trailpack-twilio/make-wish.svg?style=flat)](https://beerpay.io/jaumard/trailpack-twilio)
 
 Twilio Trailpack for sending SMS
 
